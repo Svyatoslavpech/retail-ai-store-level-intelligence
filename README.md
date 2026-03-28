@@ -4,7 +4,7 @@
 > *"It's no use going back to yesterday, because I was a different person then."*
 > — Lewis Carroll, *Alice's Adventures in Wonderland*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)](ВСТАВЬТЕ_ССЫЛКУ_НА_ПОСТ)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)](https://www.linkedin.com/feed/update/urn:li:share:7443506489593520128/?skipRedirect=true)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
@@ -200,7 +200,7 @@ This isn't just a technology story. It reshapes retail hiring:
 **Slav Pechenevskyi**
 AI Product Leader | SaaS Implementation Consultant | GenAI & LLM Evaluation
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](ВСТАВЬТЕ_ССЫЛКУ_НА_ПРОФИЛЬ)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/svyatsolution/)
 
 *All observations based on publicly available industry research and general professional experience. No proprietary or confidential information from any specific employer is referenced.*
 
