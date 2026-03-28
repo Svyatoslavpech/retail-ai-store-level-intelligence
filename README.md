@@ -18,14 +18,17 @@ While billions flow into retail AI at corporate headquarters, the store managers
 ---
 
 ## 🧠 The Problem
-Corporate HQ: Store Floor:
-✅ Demand forecasting ❌ No AI tools
-✅ Supply chain AI ❌ Spreadsheets
-✅ Dynamic pricing ❌ Generic ChatGPT
-✅ Customer segmentation ❌ Gut instinct
 
-The intelligence sits at the top.
-The decisions happen at the bottom.
+```
+Corporate HQ:                  Store Floor:
+---------------------          ---------------------
+✅ Demand forecasting          ❌ No AI tools
+✅ Supply chain AI             ❌ Spreadsheets
+✅ Dynamic pricing             ❌ Generic ChatGPT
+✅ Customer segmentation       ❌ Gut instinct
+```
+
+> **The intelligence sits at the top. The decisions happen at the bottom.**
 
 Today's LLMs can say *"seasonal items drive Q4 traffic"* — but they can't tell a specific store manager:
 
@@ -36,52 +39,54 @@ Today's LLMs can say *"seasonal items drive Q4 traffic"* — but they can't tell
 ---
 
 ## 🏗️ Proposed Architecture: Store-Level AI Agent
-┌──────────────────────────────────────────────────────┐
-│ STORE-LEVEL AI AGENT │
-├──────────────────────────────────────────────────────┤
-│ │
-│ 📊 DATA LAYER (Store-Specific): │
-│ ├── Sales history: 3-5 years, this store only │
-│ ├── Inventory: real-time stock, shrinkage │
-│ ├── Staffing: schedules, coverage, productivity │
-│ ├── Local demographics: census, ZIP analysis │
-│ ├── Traffic: foot traffic by hour/day │
-│ ├── Competition: nearby stores, new openings │
-│ ├── Weather: local forecasts → demand correlation │
-│ └── Customer: purchase clusters, loyalty data │
-│ │
-│ 🤖 AGENT LAYER: │
-│ ├── Morning Briefing Agent │
-│ │ → "Here's what you need to know today." │
-│ │ │
-│ ├── Inventory Optimization Agent │
-│ │ → "Aisle 4 organic milk trending 30% above │
-│ │ forecast — restock before 2 PM." │
-│ │ │
-│ ├── Local Marketing Agent │
-│ │ → "Back-to-school: 2,100 school-age children │
-│ │ in the area. Feature lunch prep on endcap 3." │
-│ │ │
-│ ├── Q&A Agent (Natural Language) │
-│ │ → Manager: "Why did production drop on Tuesday?" │
-│ │ → Agent: "Revenue -19%. Likely: staffing gap │
-│ │ 4-6 PM + competitor promo on berries." │
-│ │ │
-│ └── Anomaly Detection Agent │
-│ → Proactive alerts on unusual patterns │
-│ │
-│ 👥 USER LAYER: │
-│ ├── Store Coach → strategic daily briefings │
-│ ├── Department Lead → dept-specific insights │
-│ └── Team Lead → task-level guidance │
-│ │
-│ 🔒 GUARDRAILS: │
-│ ├── Role-based data access │
-│ ├── No individual customer PII │
-│ ├── Sources cited for every answer │
-│ └── Human-in-the-loop: recommendations, not orders │
-│ │
-└──────────────────────────────────────────────────────┘
+```
+====================================================
+            STORE-LEVEL AI AGENT
+====================================================
+
+📊 DATA LAYER (Store-Specific):
+   * Sales history: 3-5 years, this store only
+   * Inventory: real-time stock, shrinkage
+   * Staffing: schedules, coverage, productivity
+   * Local demographics: census, ZIP analysis
+   * Traffic: foot traffic by hour/day
+   * Competition: nearby stores, new openings
+   * Weather: local forecasts > demand correlation
+   * Customer: purchase clusters, loyalty data
+
+🤖 AGENT LAYER:
+
+   [1] Morning Briefing Agent
+       "Here's what you need to know today"
+
+   [2] Inventory Optimization Agent
+       "Aisle 4 organic milk trending 30% above
+        forecast -- restock before 2 PM"
+
+   [3] Local Marketing Agent
+       "Back-to-school: 2,100 school-age children
+        in area. Feature lunch prep on endcap 3"
+
+   [4] Q&A Agent (Natural Language)
+       Manager: "Why did produce drop Tuesday?"
+       Agent:   "Revenue -19%. Likely: staffing
+                 gap 4-6 PM + competitor promo"
+
+   [5] Anomaly Detection Agent
+       Proactive alerts on unusual patterns
+
+👥 USER LAYER:
+   * Store Coach ......... strategic briefings
+   * Department Lead ..... dept-specific insights
+   * Team Lead ........... task-level guidance
+
+🔒 GUARDRAILS:
+   * Role-based data access
+   * No individual customer PII
+   * Sources cited for every answer
+   * Human-in-the-loop: recommendations only
+====================================================
+```
 
 ### Conceptual Tech Stack
 
@@ -163,7 +168,7 @@ This isn't just a technology story. It reshapes retail hiring:
 
 ## 👤 Author
 
-**Slav Baidak**
+**Slav Pechenevskyi**
 AI Product Leader | SaaS Implementation Consultant | GenAI & LLM Evaluation
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](ВСТАВЬТЕ_ССЫЛКУ_НА_ПРОФИЛЬ)
