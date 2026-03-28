@@ -1,6 +1,8 @@
 # 🏪 The Store Floor Has No AI
 ### Why Retail's Biggest Opportunity Lives at the Frontline
 
+![Retail AI - Store Level Intelligence](store.jpg)
+
 > *"It's no use going back to yesterday, because I was a different person then."*
 > — Lewis Carroll, *Alice's Adventures in Wonderland*
 
@@ -115,6 +117,8 @@ graph TD
     E --> E1[Role-based Access]
     E --> E2[No Customer PII]
     E --> E3[Human-in-the-loop]
+
+![Store-Level AI Agent Architecture](data.jpg)
 ```
 
 ### Conceptual Tech Stack
@@ -145,6 +149,8 @@ graph TD
 ---
 
 ## 🔮 The Competitive Advantage
+
+![The future of retail intelligence](shopping.jpg)
 
 > *Headquarters has the brain. The store floor needs the nerve endings.*
 
