@@ -59,20 +59,20 @@ Today's LLMs can say *"seasonal items drive Q4 traffic"* — but they can't tell
 🤖 AGENT LAYER:
 
    [1] Morning Briefing Agent
-       "Here's what you need to know today"
+       "Here's what you need to know today."
 
    [2] Inventory Optimization Agent
        "Aisle 4 organic milk trending 30% above
-        forecast -- restock before 2 PM"
+        forecast -- restock before 2 PM."
 
    [3] Local Marketing Agent
        "Back-to-school: 2,100 school-age children
-        in area. Feature lunch prep on endcap 3"
+        in the area. Feature lunch prep on endcap 3."
 
    [4] Q&A Agent (Natural Language)
-       Manager: "Why did produce drop Tuesday?"
+       Manager: "Why did production drop on Tuesday?"
        Agent:   "Revenue -19%. Likely: staffing
-                 gap 4-6 PM + competitor promo"
+                 gap 4-6 PM + competitor promo."
 
    [5] Anomaly Detection Agent
        Proactive alerts on unusual patterns
@@ -88,7 +88,10 @@ Today's LLMs can say *"seasonal items drive Q4 traffic"* — but they can't tell
    * Sources cited for every answer
    * Human-in-the-loop: recommendations only
 ====================================================
+
 ```
+
+![Store-Level AI Agent Architecture](data.jpg)
 
 ## Visual Architecture
 ```mermaid
@@ -118,7 +121,6 @@ graph TD
     E --> E2[No Customer PII]
     E --> E3[Human-in-the-loop]
 
-![Store-Level AI Agent Architecture](data.jpg)
 ```
 
 ### Conceptual Tech Stack
