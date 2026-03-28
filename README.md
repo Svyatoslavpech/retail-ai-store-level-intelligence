@@ -88,6 +88,35 @@ Today's LLMs can say *"seasonal items drive Q4 traffic"* — but they can't tell
 ====================================================
 ```
 
+## Visual Architecture
+```mermaid
+graph TD
+    A[STORE-LEVEL AI AGENT] --> B[📊 Data Layer]
+    A --> C[🤖 Agent Layer]
+    A --> D[👥 User Layer]
+    A --> E[🔒 Guardrails]
+    
+    B --> B1[Sales History: 3-5 years]
+    B --> B2[Real-time Inventory]
+    B --> B3[Local Demographics]
+    B --> B4[Traffic Patterns]
+    B --> B5[Competition Mapping]
+    
+    C --> C1[Morning Briefing Agent]
+    C --> C2[Inventory Optimization Agent]
+    C --> C3[Local Marketing Agent]
+    C --> C4[Q&A Agent]
+    C --> C5[Anomaly Detection Agent]
+    
+    D --> D1[Store Coach]
+    D --> D2[Department Lead]
+    D --> D3[Team Lead]
+    
+    E --> E1[Role-based Access]
+    E --> E2[No Customer PII]
+    E --> E3[Human-in-the-loop]
+```
+
 ### Conceptual Tech Stack
 
 | Component | Technology |
@@ -129,7 +158,7 @@ The winner will be:
 - ✅ Where AI understands **this neighborhood**
 - ✅ Where team leads have intelligence **before the morning huddle**
 
-### "The Store as Your Neighborhood Home"
+### "The Store as Your Neighborhood Home."
 A place that doesn't just sell products but genuinely understands and cares for its community.
 
 ---
