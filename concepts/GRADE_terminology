@@ -1,0 +1,143 @@
+# GRADE Framework — Terminology and Concept Authorship
+
+**Author:** Slav Pechenevskyi  
+**Date established:** 16 May, 2026  
+**Repository:** retail-ai-store-level-intelligence
+
+---
+
+## Purpose of This Document
+
+This file establishes the original authorship and first-use dates for terminology introduced in the GRADE Framework and the Store Intelligence article series.
+
+All terms below were coined or applied in this specific context by Slav Pechenevskyi. The GitHub timestamp of this file's initial commit serves as the primary record of priority.
+
+---
+
+## Framework Name
+
+### GRADE Framework
+**Full name:** Store-Level AI Reliability Assessment Framework  
+**Acronym:** Granularity · Role · Adaptive Output · Drift · Error Patterns  
+**First use:** May 2026, LinkedIn Article — *"Your Store AI Agent Will Fail. Here's How to See It Coming."*  
+**Definition:** A practitioner-developed evaluation framework for assessing AI Agent quality specifically in store-level retail operational environments, across five dimensions and ten failure patterns.
+
+---
+
+## Pattern Terminology — Article 2 (10 Patterns)
+
+### Pattern 1: Granularity Boundary Failure
+**First use:** May 2026  
+**Definition:** The failure mode in which an AI agent responds at an incorrect level of specificity — defaulting to aggregate, network-level, or industry-level data when store-specific operational intelligence is required. The boundary between the agent's effective granularity scope and the user's required granularity scope.  
+**Origin:** Derived from direct observation of LLM behavior when queried about store-specific seasonal demand at Walmart.
+
+---
+
+### Pattern 2: Prompt Quality Variance
+**First use:** May 2026  
+**Definition:** The measurable degradation in AI agent accuracy as a function of input prompt quality — specifically the gap in reliability between well-formed (clean) prompts and operationally realistic (floor) prompts produced by non-expert users under time and cognitive pressure.  
+**Origin:** Observed in LLM evaluation work at Outlier and in retail operations contexts.
+
+---
+
+### Pattern 3: Asymmetric Error Tolerance
+**First use:** May 2026  
+**Definition:** The phenomenon in which identical AI accuracy levels represent acceptable operational risk for one user role and unacceptable risk for another — because different roles have different capacities to detect and correct AI errors based on their level of domain expertise and institutional knowledge.  
+**Origin:** Observed directly in retail operations through comparison of Store Manager and Team Lead interactions with AI-assisted decision support systems.
+
+---
+
+### Pattern 4: Information Role Inversion
+**First use:** May 2026  
+**Definition:** The failure mode in which an AI agent is optimized for one user's information mode (validation and acceleration of existing knowledge) when a different user in the same role context requires the opposite mode (discovery and construction of new understanding).  
+**Origin:** Observed in Walmart retail operations through comparison of experienced Store Manager and early-tenure Team Lead interactions with information systems.
+
+---
+
+### Pattern 5: Adaptive Output Failure
+**First use:** May 2026  
+**Definition:** The failure mode in which an AI agent delivers uniform output format regardless of the user's dominant information processing modality, cognitive load state, or linguistic context — producing information that is technically correct but operationally inaccessible.  
+**Dimensions:** Representational systems (NLP), cognitive load, somatic state, and linguistic interface.  
+**Note:** Extended treatment, including psychological and linguistic dimensions in Article 2B of this series.
+
+---
+
+### Pattern 6: State Drift in Long Context
+**First use:** May 2026  
+**Definition:** The progressive degradation of AI agent accuracy across multi-turn conversations — in which previously established facts are referenced incorrectly in later exchanges while the agent maintains consistent confidence tone, making the drift invisible to users.  
+**Origin:** Observed in LLM evaluation work at Outlier across extended evaluation sessions.
+
+---
+
+### Pattern 7: Reasoning Degradation
+**First use:** May 2026  
+**Definition:** The compounding accuracy loss that occurs in multi-step reasoning chains — in which the agent handles isolated queries reliably but fails to correctly integrate multiple data points across sequential reasoning steps, producing plausible but incorrect conclusions.
+
+---
+
+### Pattern 8: Instruction Sensitivity
+**First use:** May 2026  
+**Definition:** The disproportionate sensitivity of an AI agent's outputs to surface-level prompt phrasing — producing significantly different responses to semantically equivalent questions presented in different linguistic forms.
+
+---
+
+### Pattern 9: Context Contamination
+**First use:** May 2026  
+**Definition:** The failure mode in which new information introduced mid-conversation overwrites an AI agent's operational grounding — causing a silent frame shift in which the agent begins responding from the introduced context rather than its configured operational role.
+
+---
+
+### Pattern 10: Sycophancy (applied to Store-Level AI)
+**First use in Store AI context:** May 2026  
+**Definition as applied here:** The systematic tendency of an AI agent to modify factually correct responses in response to user pushback, emotional pressure, or expressed disagreement — substituting the user's approval signal for factual accuracy. Applied specifically to the Store-Level AI context where this pattern is most operationally dangerous for lower-expertise users.  
+**Note:** The underlying phenomenon is documented in Anthropic alignment research. Its application as a Store-Level AI evaluation criterion and its inclusion in a structured retail AI evaluation framework is original to this work.
+
+---
+
+## Pattern Terminology — Article 2B (Extended)
+
+### Pattern 11: Intent-to-Prompt Gap
+**First use:** May 2026  
+**Definition:** The systematic distortion that occurs in the translation layer between a user's operational intent and the prompt that actually reaches the AI system — caused by cognitive load, linguistic interference (particularly in multilingual workforce contexts), time pressure, and communicative imprecision. The gap between what the user means to ask and what the AI receives as input.  
+**Dimensions:**  
+- Overgeneralization: specific operational issues expressed as vague global complaints
+- Undergeneralization: specific items or locations expressed without identifying details
+- Precision loss: operational terminology replaced by emotional or colloquial language
+- Linguistic interference: intent formed in the native language, expressed in a second language with translation losses  
+**Origin:** Observed directly in multicultural retail operations at Walmart, and in LLM evaluation contexts at Outlier, where prompt quality was a systematic variable.  
+**First published:** Article 2B — *"Why Your Store AI Agent Fails the People Who Need It Most"*
+
+---
+
+## Conceptual Contributions
+
+### Asymmetric Error Tolerance as an Evaluation Criterion
+The use of role-differentiated error tolerance thresholds — rather than single-standard accuracy metrics — as a core AI evaluation criterion in operational deployment contexts.
+
+### Linguistic Dimension of Prompt Quality
+The explicit identification of multilingual workforce dynamics as a structural variable in Store-Level AI evaluation — distinct from general prompt quality variance and requiring separate measurement.
+
+### Somatic State as AI Interaction Variable
+The application of somatic intelligence concepts (Gilligan Generative Coaching framework) and neurological levels (Dilts) to the design and evaluation of human-AI interaction in operational retail environments.  
+*Developed in Article 2B.*
+
+### GRADE Radar as Evaluation Output
+The five-dimensional radar visualization as a standardized output format for Store-Level AI evaluation — enabling dimension-level diagnosis rather than aggregate accuracy reporting.
+
+---
+
+## Article Series
+
+| Article |                            Title                            |     Status     |               Key Contributions               |
+|---------|-------------------------------------------------------------|----------------|-----------------------------------------------|
+| 1       | Most retail AI never reaches the store floor                | ✅ Published   | Series foundation, Store Intelligence concept |
+| 2       | Your Store AI Agent Will Fail. Here's How to See It Coming. | ✅ Published   | GRADE Framework, Patterns 1-10                |
+| 2B      | Why Your Store AI Agent Fails the People Who Need It Most   | 📋 Forthcoming | Pattern 11, psychological dimensions          |
+| 3       | How to measure if your Store AI works                       | 📋 Planned     | GRADE metrics, scoring methodology            |
+| 4       | The role retail AI actually needs                           | 📋 Planned     | Store Intelligence Consultant role            |
+
+---
+
+*GRADE Terminology v1.0 | Slav Pechenevskyi | 16 May, 2026*  
+*This document establishes authorship priority for the concepts and terminology listed above.*  
+*GitHub commit timestamp serves as the primary record of first use.*
