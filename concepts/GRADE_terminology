@@ -42,7 +42,7 @@ All terms below were coined or applied in this specific context by Slav Pechenev
 
 ### Pattern 3: Asymmetric Error Tolerance
 **First use:** May 2026  
-**Definition:** The phenomenon in which identical AI accuracy levels represent acceptable operational risk for one user role and unacceptable risk for another — because different roles have different capacities to detect and correct AI errors based on their level of domain expertise and institutional knowledge.  
+**Definition:** The phenomenon in which identical AI accuracy levels represent acceptable operational risk for one user role and unacceptable risk for another, because different roles have different capacities to detect and correct AI errors based on their level of domain expertise and institutional knowledge.  
 **Origin:** Observed directly in retail operations through comparison of Store Manager and Team Lead interactions with AI-assisted decision support systems.
 
 ---
@@ -141,3 +141,59 @@ The five-dimensional radar visualization as a standardized output format for Sto
 *GRADE Terminology v1.0 | Slav Pechenevskyi | 16 May, 2026*  
 *This document establishes authorship priority for the concepts and terminology listed above.*  
 *GitHub commit timestamp serves as the primary record of first use.*
+
+---
+
+## New Concepts — May 18, 2026
+
+### Cross-Pollination of AI Models
+**First use:** May 2026
+**Russian term:** Перекрёстное опыление AI моделей
+**Definition:** A methodology in which an idea, hypothesis, or insight
+created through discussion with one AI model is subsequently verified,
+critiqued, and enriched through other AI models (e.g., Claude → Gemini
+→ GPT). Analogous to biological cross-pollination: each model has its
+own biases and blind spots; the result of multi-model iteration is a 
+hybrid that has the potential to surpass any single model's output.
+**Origin:** Observed during the development of the GRADE Framework,
+which was created in Claude and subsequently reviewed by GPT and Gemini.
+**First documented:** May 18, 2026
+
+---
+
+### The New Communication Layer / Context Barrier
+**First use:** May 2026
+**Definition:** The new interface layer that has emerged between human
+intent and AI understanding. Unlike a language barrier, this is a
+context barrier — the AI knows only what the user explicitly provides.
+The precision and economy of context transmission directly determine
+output quality. The more accurately a human transmits context, the more
+accurate the result. An extension of Intent-to-Prompt Gap (Pattern 11)
+applied universally — not only in multicultural environments but in all
+human-AI communication.
+**Working titles:**
+- "The New Communication Layer: How Working with AI Changes How We Think"
+- "You're not writing for AI. You're thinking through it."
+**First documented:** May 18, 2026
+
+---
+
+### Human Performance Curve
+**First use:** May 2026
+**Definition:** The operational threshold beyond which a store associate
+begins making irreversible errors — determined by workload volume, time
+pressure, task diversity, and cumulative stress. The correct positioning
+of a Store AI Agent is at this threshold: not as a replacement for human
+judgment, but as a buffer that extends human operational capacity before
+the breaking point is reached.
+**Key insight:** A Store Manager's internal business model — whether
+visual (sees the store), auditory (hears its rhythms), kinesthetic
+(feels its patterns), or digital (models it in data) — is a living
+emotional intelligence that AI cannot replicate. AI belongs at the edge
+of human capacity, not at its center.
+**Implication for AI positioning:** The question is not "AI vs people."
+But "where does AI extend what people can do?" The business case is
+revenue growth, not headcount reduction.
+**First documented:** May 18, 2026
+
+---
