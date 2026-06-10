@@ -203,6 +203,22 @@ This isn't just a technology story. It reshapes retail hiring:
 
 ---
 
+## 📰 Article Series
+
+This repository is the technical foundation for an ongoing series on Store-Level AI evaluation.
+
+| # | Title | Status | Link |
+|---|-------|--------|------|
+| 1 | Most retail AI never satisfies the store floor | ✅ Published | [Read on LinkedIn](https://www.linkedin.com/pulse/most-retail-ai-never-satisfies-store-floor-sviatoslav-pechenevskyi-2cwlc/) |
+| 2 | Your Store AI Agent Will Fail. Here's How to See It Coming. | ✅ Published | [Read on LinkedIn](https://www.linkedin.com/pulse/your-store-ai-agent-fail-heres-how-see-coming-sviatoslav-pechenevskyi-zgk6c/) |
+| 2B | Why Your Store AI Agent Fails the People Who Need It Most | ✅ Published | [Read on LinkedIn](INSERT_URL_AFTER_PUBLICATION) |
+| 3 | How to measure if your Store AI works | 📋 Planned | Coming 2026 |
+| 4 | The role retail AI actually needs | 📋 Planned | Coming 2026 |
+
+*Article 2 introduces the GRADE Framework (Patterns 1-10). Article 2B extends Pattern 5 and introduces Pattern 11: Intent-to-Prompt Gap.*
+
+
+
 ## 👤 Author
 
 **Slav Pechenevskyi**
