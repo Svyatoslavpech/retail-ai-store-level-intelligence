@@ -218,7 +218,6 @@ This repository is the technical foundation for an ongoing series on Store-Level
 *Article 2 introduces the GRADE Framework (Patterns 1-10). Article 2B extends Pattern 5 and introduces Pattern 11: Intent-to-Prompt Gap.*
 
 
-
 ## 👤 Author
 
 **Slav Pechenevskyi**
