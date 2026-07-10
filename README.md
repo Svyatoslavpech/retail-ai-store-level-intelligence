@@ -204,7 +204,6 @@ This isn't just a technology story. It reshapes retail hiring:
 ---
 
 ## 📰 Article Series
-
 This repository is the technical foundation for an ongoing series on Store-Level AI evaluation.
 
 | # | Title | Status | Link |
@@ -212,14 +211,12 @@ This repository is the technical foundation for an ongoing series on Store-Level
 | 1 | Most retail AI never satisfies the store floor | ✅ Published | [Read on LinkedIn](https://www.linkedin.com/pulse/most-retail-ai-never-satisfies-store-floor-sviatoslav-pechenevskyi-2cwlc/) |
 | 2 | Your Store AI Agent Will Fail. Here's How to See It Coming. | ✅ Published | [Read on LinkedIn](https://www.linkedin.com/pulse/your-store-ai-agent-fail-heres-how-see-coming-sviatoslav-pechenevskyi-zgk6c/) |
 | 2B | Why Your Store AI Agent Fails the People Who Need It Most | ✅ Published | [Read on LinkedIn](https://www.linkedin.com/pulse/why-your-store-ai-agent-fails-people-who-need-most-pechenevskyi-fxhcc/) |
-3. [87% on USMLE. 52% Under-Triage Rate in Production. Same AI.](ССЫЛКА_MAIN)
-   — Healthcare AI: the benchmark-deployment gap
-4. [How to Build the Tests That Actually Catch Deployment Failures](ССЫЛКА_DEEP)
-   — Adversarial methodology, dual-agent architecture
-| 3 | How to measure if your Store AI works | 📋 Planned | Coming 2026 |
-| 4 | The role retail AI actually needs | 📋 Planned | Coming 2026 |
+| 3 | 87% on USMLE. 52% Under-Triage Rate in Production. Same AI. | 📋 Coming Fri, Jul 10 | [Read on LinkedIn](ССЫЛКА_MAIN) |
+| 4 | How to Build the Tests That Actually Catch Deployment Failures | 📋 Coming Sat, Jul 11 | [Read on LinkedIn](ССЫЛКА_DEEP) |
+| 5 | How to measure if your Store AI works | 📋 Planned | Coming 2026 |
+| 6 | The role retail AI actually needs | 📋 Planned | Coming 2026 |
 
-*Article 2 introduces the GRADE Framework (Patterns 1-10). Article 2B extends Pattern 5 and introduces Pattern 11: Intent-to-Prompt Gap.*
+*Article 2 introduces the GRADE Framework (Patterns 1-10). Article 2B extends Pattern 5 and introduces Pattern 11: Intent-to-Prompt Gap. Article 3 (MAIN/DEEP) applies Patterns 3, 6, 9, and 10 to a Healthcare AI case study.*
 
 
 ## 👤 Author
