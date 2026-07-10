@@ -211,7 +211,7 @@ This repository is the technical foundation for an ongoing series on Store-Level
 | 1 | Most retail AI never satisfies the store floor | ✅ Published | [Read on LinkedIn](https://www.linkedin.com/pulse/most-retail-ai-never-satisfies-store-floor-sviatoslav-pechenevskyi-2cwlc/) |
 | 2 | Your Store AI Agent Will Fail. Here's How to See It Coming. | ✅ Published | [Read on LinkedIn](https://www.linkedin.com/pulse/your-store-ai-agent-fail-heres-how-see-coming-sviatoslav-pechenevskyi-zgk6c/) |
 | 2B | Why Your Store AI Agent Fails the People Who Need It Most | ✅ Published | [Read on LinkedIn](https://www.linkedin.com/pulse/why-your-store-ai-agent-fails-people-who-need-most-pechenevskyi-fxhcc/) |
-| 3 | 87% on USMLE. 52% Under-Triage Rate in Production. Same AI. | 📋 Coming Fri, Jul 10 | [Read on LinkedIn](ССЫЛКА_MAIN) |
+| 3 | 87% on USMLE. 52% Under-Triage Rate in Production. Same AI. | ✅ Published | [Read on LinkedIn](https://www.linkedin.com/pulse/87-usmle-52-under-triage-rate-production-same-ai-pechenevskyi-nlx7c/) |
 | 4 | How to Build the Tests That Actually Catch Deployment Failures | 📋 Coming Sat, Jul 11 | [Read on LinkedIn](ССЫЛКА_DEEP) |
 | 5 | How to measure if your Store AI works | 📋 Planned | Coming 2026 |
 | 6 | The role retail AI actually needs | 📋 Planned | Coming 2026 |
