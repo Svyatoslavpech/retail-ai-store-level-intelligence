@@ -224,9 +224,9 @@ This repository is the technical foundation for an ongoing series on Store-Level
 **Slav Pechenevskyi**
 AI Product Leader | SaaS Implementation Consultant | GenAI & LLM Evaluation
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/svyatsolution/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/slav-pechenevskyi/)
 
-*All observations based on publicly available industry research and general professional experience. No proprietary or confidential information from any specific employer is referenced.*
+*All observations are based on publicly available industry research and general professional experience. No proprietary or confidential information from any specific employer is referenced.*
 
 ---
 
@@ -243,7 +243,7 @@ I'd love to hear your perspective.
 
 - Open an [Issue](../../issues) to share ideas
 - Submit a [Pull Request](../../pulls) with improvements
-- Connect on [LinkedIn](https://www.linkedin.com/in/svyatsolution/) to discuss
+- Connect on [LinkedIn](https://www.linkedin.com/in/slav-pechenevskyi/) to discuss
 
 ---
 
